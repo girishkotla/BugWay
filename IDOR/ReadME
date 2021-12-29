@@ -47,11 +47,32 @@ B=> attacker
 If that works ==> It's an IDOR
 
 
-Case Studies:
-1. https://hackerone.com/reports/293845
-2.
+Case Studies: 
+- Response program can create bounty table - $500: https://hackerone.com/reports/460920
+ 
+- [IDOR] Deleting other people's tasks - $300: https://hackerone.com/reports/293845
+ 
+- IDOR bug to See hidden slowvote of any user even when you dont have access right - $300: https://hackerone.com/reports/661978
+ 
+- Bypass of my three other reports #267636 + #255894 + #271861 : https://hackerone.com/reports/320173
+https://www.jonbottarini.com/2018/01/02/abusing-internal-api-to-acheieve-idor-in-new-relic/
 
+      Above reports:
+            https://hackerone.com/reports/267636
+            https://hackerone.com/reports/255894
+            https://hackerone.com/reports/271861
 
+- (IDOR) Ability to see full name associated with other New Relic accounts - $1,500: https://hackerone.com/reports/320173
+ and https://www.jonbottarini.com/2018/01/02/abusing-internal-api-to-achieve-idor-in-new-relic/
+ 
+- Replace other user files in Inbox messages - $1,000: https://hackerone.com/reports/322661
+ 
+- Low Privileged user able to add new Geographical settings to the Admin account. - $750: https://hackerone.com/reports/420130
+ 
+- Validation message in Bounty award endpoint can be used to determine program balances - $1,500: https://hackerone.com/reports/293299
+ 
+- IDOR to add secondary users in www.paypal.com/businessmanage/users/api/v1/users - $10,500: https://hackerone.com/reports/415081
+ 
 
 
 
