@@ -1,0 +1,16 @@
+IDOR ==> Insucre Direct Object Reference
+Example-1: 
+Girish Account ID = 100
+  > To delete ID 100 ==> Should Work
+  > To delete ID 101/99/other ==> Shouldn't work ==> bcz, it not your account
+
+Example-2:
+You are Guest 
+  > Viewing post ID 5 ==> Should work (bcz, of view permissions)
+  > Editing post ID 5 ==> Shouldn't wprk(bcz, not authorised to do that)
+  
+
+
+
+
+Reference: https://www.youtube.com/watch?v=gINAtzdccts&list=PLbyncTkpno5FAC0DJYuJrEqHSMdudEffw&index=6
