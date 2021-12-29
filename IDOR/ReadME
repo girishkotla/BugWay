@@ -9,6 +9,41 @@ You are Guest
   > Viewing post ID 5 ==> Should work (bcz, of view permissions)
   > Editing post ID 5 ==> Shouldn't wprk(bcz, not authorised to do that)
   
+Note: For finding the IDOR, you dpo not need to know lot about how websites are built and how they work. So this would be best to start with.
+
+What do you need 3 things to find the IDOR:
+1. Patience
+2. Patience
+3. Patience
+
+Tools needed: Burp Suite
+
+What to do?:
+> When you see an ID, alter the ID number and check the results.
+> Try that with privilage user; with guest account etc.,
+
+What is security Impact: Users can do something they shouldn't be able to do
+
+How to find them?:
+1.Find endpoints with IDs in the request
+2. Chnage the ID ( to another ID that you won); Discalimer: Do not test on real accounts :-)
+3. If it works ==> It's an IDOR
+======
+1. Find endpoints that require admin permissions
+2. Login to an account that has guest permissions
+3. repeat the requets to the admin end points, chnaging the cookies
+4. If that works ==> it's an IDOR
+
+
+
+
+
+
+
+
+
+
+
 
 
 
