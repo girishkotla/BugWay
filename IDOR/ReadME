@@ -34,15 +34,22 @@ How to find them?:
 3. repeat the requets to the admin end points, chnaging the cookies
 4. If that works ==> it's an IDOR
 
+Steps to find:
+1. Craete 2 accounts (A, B)
+A => victim
+B=> attacker
+2. Crate an account/Task/post/blog using user "A" account and get the ID number.
+3. Do the same for user B
+4. Turn on BURP. Intercet the request
+5. In user B > click on delete and you would find the ID on BURP.
+6. Modify the ID nu, with the user A's ID num
+
+If that works ==> It's an IDOR
+
 
 Case Studies:
 1. https://hackerone.com/reports/293845
-
-
-
-
-
-
+2.
 
 
 
