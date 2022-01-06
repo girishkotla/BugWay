@@ -1,0 +1,4 @@
+Prerequisites:
+      Tools: Subfinder, assetfinder, amass, shuffledns, httpx
+      Wordlist: Seclists (by jhaddix) ==> Specify this wordlist in code
+      resolvers: https://github.com/vortexau/dnsvalidator  ==> specify this resolvers file in code
