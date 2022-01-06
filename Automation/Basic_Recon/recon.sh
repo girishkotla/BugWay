@@ -6,6 +6,7 @@ resolvers="/root/tools/shuffledns/resolvers.txt"
 
 domain_enum(){
 
+mkdir -p /root/workspace
 mkdir -p /root/workspace/$domain /root/workspace/$domain/sources /root/workspace/$domain/Recon
 subfinder -d $domain -o /root/workspace/$domain/sources/subfinder_results.txt
 assetfinder -subs-only $domain | tee /root/workspace/$domain/sources/assetfinder_resuls.txt
